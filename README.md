@@ -98,14 +98,9 @@ This command bundles the React app into static files in the `dist/` directory, r
 
 
 ```json
-    "homepage": "https://<your-github-username>.github.io/<your-repo-name>"
-    ```
-    - You might need to configure your `vite.config.js` to set the `base` option to your repository name if deploying to a project page.
-    - Use a tool like `gh-pages` to deploy the `dist` folder to your `gh-pages` branch.
+    "homepage": https://github.com/jmtd-spec/Your-Personal-AI-Health-Wellness-Companion
 
 ### Deploying as a PWA to App Stores
-
-As outlined in `app_store_optimization_guide.md`, PWAs can be submitted to app stores like Google Play Store and Microsoft Store. For iOS App Store, a native wrapper (e.g., using PWABuilder or Capacitor) is typically required.
 
 ## Project Structure
 
