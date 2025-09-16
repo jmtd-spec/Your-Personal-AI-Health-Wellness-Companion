@@ -98,9 +98,7 @@ This command bundles the React app into static files in the `dist/` directory, r
 
 
 ```json
-    "homepage": https://github.com/jmtd-spec/Your-Personal-AI-Health-Wellness-Companion
-
-### Deploying as a PWA to App Stores
+   "homepage": https://github.com/jmtd-spec/Your-Personal-AI-Health-Wellness-Companion
 
 ## Project Structure
 
