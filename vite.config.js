@@ -1,8 +1,15 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+import path from 'path'
 
-// https://vitejs.dev/config/
+// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react( )],
-  base: '/Your-Personal-AI-Health-Wellness-Companion/', // <--- Make sure this line is correct
+  base: '/Your-Personal-AI-Health-Wellness-Companion/',
+  plugins: [react(),tailwindcss()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
 })
