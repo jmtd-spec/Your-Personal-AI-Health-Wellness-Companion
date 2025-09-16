@@ -96,10 +96,6 @@ This command bundles the React app into static files in the `dist/` directory, r
     **For GitHub Pages:**
     - Ensure your `package.json` includes a `homepage` field: `
 
-
-```json
-   "homepage": https://github.com/jmtd-spec/Your-Personal-AI-Health-Wellness-Companion
-
 ## Contributing
 
 Contributions are welcome! Please feel free to fork the repository, create a new branch, and submit a pull request with your improvements.
