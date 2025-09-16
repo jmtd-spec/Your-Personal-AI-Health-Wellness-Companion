@@ -100,29 +100,6 @@ This command bundles the React app into static files in the `dist/` directory, r
 ```json
    "homepage": https://github.com/jmtd-spec/Your-Personal-AI-Health-Wellness-Companion
 
-## Project Structure
-
-```
-wellness-ai-coach/
-├── public/                   # Public assets (e.g., favicon, manifest.json)
-├── src/
-│   ├── assets/               # Static assets like images
-│   ├── components/           # React components
-│   │   └── ui/               # UI components from shadcn/ui
-│   ├── hooks/                # Custom React hooks
-│   ├── lib/                  # Utility functions and libraries
-│   ├── App.css               # App-specific styles
-│   ├── App.jsx               # Main App component
-│   ├── index.css             # Global styles
-│   └── main.jsx              # Entry point
-├── components.json           # shadcn/ui configuration
-├── eslint.config.js          # ESLint configuration
-├── index.html                # HTML entry point
-├── package.json              # Project dependencies and scripts
-├── pnpm-lock.yaml            # Lock file for dependencies
-└── vite.config.js            # Vite bundler configuration
-```
-
 ## Contributing
 
 Contributions are welcome! Please feel free to fork the repository, create a new branch, and submit a pull request with your improvements.
